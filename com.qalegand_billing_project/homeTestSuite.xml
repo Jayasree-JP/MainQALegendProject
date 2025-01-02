@@ -7,10 +7,7 @@
 		<classes>
 
 			<class name="testClasses.HomePageTestClass" />
-			<class name="testClasses.ManageUserTestClass" />
-			<class name="testClasses.ManageProductTestClass" />
-			<class name="testClasses.LoginPageTestClass" />
-
+			
 		</classes>
 	</test> <!--
 	Test -->

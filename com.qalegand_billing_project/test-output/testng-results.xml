@@ -1,43 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="5" ignored="5" total="40" passed="30" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-31T11:44:23 IST" name="Suite" finished-at="2024-12-31T11:49:11 IST" duration-ms="287341">
+  <suite started-at="2025-01-02T14:06:26 IST" name="Suite" finished-at="2025-01-02T14:08:40 IST" duration-ms="133884">
     <groups>
       <group name="Group1">
-        <method signature="LoginPageTestClass.verifyTheExactURL_OpensWhileHittingTheBaseURL()[pri:0, instance:testClasses.LoginPageTestClass@928763c]" name="verifyTheExactURL_OpensWhileHittingTheBaseURL" class="testClasses.LoginPageTestClass"/>
-        <method signature="HomePageTestClass.verifySuccessfulSignOut()[pri:1, instance:testClasses.HomePageTestClass@3cfdd820]" name="verifySuccessfulSignOut" class="testClasses.HomePageTestClass"/>
-        <method signature="ManageProductTestClass.verifyToCreateA_newProduct()[pri:1, instance:testClasses.ManageProductTestClass@6f8e8894]" name="verifyToCreateA_newProduct" class="testClasses.ManageProductTestClass"/>
-        <method signature="ManageUserTestClass.verifyToAdd_aNewUser()[pri:1, instance:testClasses.ManageUserTestClass@77659b30]" name="verifyToAdd_aNewUser" class="testClasses.ManageUserTestClass"/>
-        <method signature="ManageProductTestClass.verifyToDeleteAddedProduct()[pri:2, instance:testClasses.ManageProductTestClass@6f8e8894]" name="verifyToDeleteAddedProduct" class="testClasses.ManageProductTestClass"/>
-        <method signature="LoginPageTestClass.verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@928763c]" name="verifyUnsuccessfulLoginOfTheSite" class="testClasses.LoginPageTestClass"/>
-        <method signature="LoginPageTestClass.verifySuccessfullLogin()[pri:4, instance:testClasses.LoginPageTestClass@928763c]" name="verifySuccessfullLogin" class="testClasses.LoginPageTestClass"/>
-        <method signature="LoginPageTestClass.verifyTheExactURL_OpensWhileHittingTheBaseURL()[pri:0, instance:testClasses.LoginPageTestClass@352ff4da]" name="verifyTheExactURL_OpensWhileHittingTheBaseURL" class="testClasses.LoginPageTestClass"/>
-        <method signature="HomePageTestClass.verifySuccessfulSignOut()[pri:1, instance:testClasses.HomePageTestClass@4e928fbf]" name="verifySuccessfulSignOut" class="testClasses.HomePageTestClass"/>
-        <method signature="ManageProductTestClass.verifyToCreateA_newProduct()[pri:1, instance:testClasses.ManageProductTestClass@f627d13]" name="verifyToCreateA_newProduct" class="testClasses.ManageProductTestClass"/>
-        <method signature="ManageUserTestClass.verifyToAdd_aNewUser()[pri:1, instance:testClasses.ManageUserTestClass@3116c353]" name="verifyToAdd_aNewUser" class="testClasses.ManageUserTestClass"/>
-        <method signature="ManageProductTestClass.verifyToDeleteAddedProduct()[pri:2, instance:testClasses.ManageProductTestClass@f627d13]" name="verifyToDeleteAddedProduct" class="testClasses.ManageProductTestClass"/>
-        <method signature="LoginPageTestClass.verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@352ff4da]" name="verifyUnsuccessfulLoginOfTheSite" class="testClasses.LoginPageTestClass"/>
-        <method signature="LoginPageTestClass.verifySuccessfullLogin()[pri:4, instance:testClasses.LoginPageTestClass@352ff4da]" name="verifySuccessfullLogin" class="testClasses.LoginPageTestClass"/>
+        <method signature="LoginPageTestClass.verifyTheExactURL_OpensWhileHittingTheBaseURL()[pri:0, instance:testClasses.LoginPageTestClass@e25951c]" name="verifyTheExactURL_OpensWhileHittingTheBaseURL" class="testClasses.LoginPageTestClass"/>
+        <method signature="HomePageTestClass.verifySuccessfulSignOut()[pri:1, instance:testClasses.HomePageTestClass@456d6c1e]" name="verifySuccessfulSignOut" class="testClasses.HomePageTestClass"/>
+        <method signature="ManageProductTestClass.verifyToCreateA_newProduct()[pri:1, instance:testClasses.ManageProductTestClass@928763c]" name="verifyToCreateA_newProduct" class="testClasses.ManageProductTestClass"/>
+        <method signature="ManageUserTestClass.verifyToAdd_aNewUser()[pri:1, instance:testClasses.ManageUserTestClass@3cfdd820]" name="verifyToAdd_aNewUser" class="testClasses.ManageUserTestClass"/>
+        <method signature="ManageProductTestClass.verifyToDeleteAddedProduct()[pri:2, instance:testClasses.ManageProductTestClass@928763c]" name="verifyToDeleteAddedProduct" class="testClasses.ManageProductTestClass"/>
+        <method signature="LoginPageTestClass.verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@e25951c]" name="verifyUnsuccessfulLoginOfTheSite" class="testClasses.LoginPageTestClass"/>
+        <method signature="LoginPageTestClass.verifySuccessfullLogin()[pri:4, instance:testClasses.LoginPageTestClass@e25951c]" name="verifySuccessfullLogin" class="testClasses.LoginPageTestClass"/>
       </group> <!-- Group1 -->
       <group name="Group2">
-        <method signature="HomePageTestClass.verifyAllTilesDisplayedOnHomePage()[pri:0, instance:testClasses.HomePageTestClass@3cfdd820]" name="verifyAllTilesDisplayedOnHomePage" class="testClasses.HomePageTestClass"/>
-        <method signature="ManageProductTestClass.verifyProductsPageIsOpenWhileClickingOnListProducts()[pri:0, instance:testClasses.ManageProductTestClass@6f8e8894]" name="verifyProductsPageIsOpenWhileClickingOnListProducts" class="testClasses.ManageProductTestClass"/>
-        <method signature="ManageUserTestClass.verifyTheManageUsersPageIsOpenWhileClickingOnUsers()[pri:0, instance:testClasses.ManageUserTestClass@77659b30]" name="verifyTheManageUsersPageIsOpenWhileClickingOnUsers" class="testClasses.ManageUserTestClass"/>
-        <method signature="LoginPageTestClass.verifyTheRememberMeCheckboxIsSelectedByDefault()[pri:1, instance:testClasses.LoginPageTestClass@928763c]" name="verifyTheRememberMeCheckboxIsSelectedByDefault" class="testClasses.LoginPageTestClass"/>
-        <method signature="HomePageTestClass.verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator()[pri:2, instance:testClasses.HomePageTestClass@3cfdd820]" name="verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator" class="testClasses.HomePageTestClass"/>
-        <method signature="LoginPageTestClass.verifyResetPasswordPageComingWhileChickingOnForgotYourPassword()[pri:2, instance:testClasses.LoginPageTestClass@928763c]" name="verifyResetPasswordPageComingWhileChickingOnForgotYourPassword" class="testClasses.LoginPageTestClass"/>
-        <method signature="HomePageTestClass.verifyAllTilesDisplayedOnHomePage()[pri:0, instance:testClasses.HomePageTestClass@4e928fbf]" name="verifyAllTilesDisplayedOnHomePage" class="testClasses.HomePageTestClass"/>
-        <method signature="ManageProductTestClass.verifyProductsPageIsOpenWhileClickingOnListProducts()[pri:0, instance:testClasses.ManageProductTestClass@f627d13]" name="verifyProductsPageIsOpenWhileClickingOnListProducts" class="testClasses.ManageProductTestClass"/>
-        <method signature="ManageUserTestClass.verifyTheManageUsersPageIsOpenWhileClickingOnUsers()[pri:0, instance:testClasses.ManageUserTestClass@3116c353]" name="verifyTheManageUsersPageIsOpenWhileClickingOnUsers" class="testClasses.ManageUserTestClass"/>
-        <method signature="LoginPageTestClass.verifyTheRememberMeCheckboxIsSelectedByDefault()[pri:1, instance:testClasses.LoginPageTestClass@352ff4da]" name="verifyTheRememberMeCheckboxIsSelectedByDefault" class="testClasses.LoginPageTestClass"/>
-        <method signature="HomePageTestClass.verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator()[pri:2, instance:testClasses.HomePageTestClass@4e928fbf]" name="verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator" class="testClasses.HomePageTestClass"/>
-        <method signature="LoginPageTestClass.verifyResetPasswordPageComingWhileChickingOnForgotYourPassword()[pri:2, instance:testClasses.LoginPageTestClass@352ff4da]" name="verifyResetPasswordPageComingWhileChickingOnForgotYourPassword" class="testClasses.LoginPageTestClass"/>
+        <method signature="HomePageTestClass.verifyAllTilesDisplayedOnHomePage()[pri:0, instance:testClasses.HomePageTestClass@456d6c1e]" name="verifyAllTilesDisplayedOnHomePage" class="testClasses.HomePageTestClass"/>
+        <method signature="ManageProductTestClass.verifyProductsPageIsOpenWhileClickingOnListProducts()[pri:0, instance:testClasses.ManageProductTestClass@928763c]" name="verifyProductsPageIsOpenWhileClickingOnListProducts" class="testClasses.ManageProductTestClass"/>
+        <method signature="ManageUserTestClass.verifyTheManageUsersPageIsOpenWhileClickingOnUsers()[pri:0, instance:testClasses.ManageUserTestClass@3cfdd820]" name="verifyTheManageUsersPageIsOpenWhileClickingOnUsers" class="testClasses.ManageUserTestClass"/>
+        <method signature="LoginPageTestClass.verifyTheRememberMeCheckboxIsSelectedByDefault()[pri:1, instance:testClasses.LoginPageTestClass@e25951c]" name="verifyTheRememberMeCheckboxIsSelectedByDefault" class="testClasses.LoginPageTestClass"/>
+        <method signature="HomePageTestClass.verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator()[pri:2, instance:testClasses.HomePageTestClass@456d6c1e]" name="verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator" class="testClasses.HomePageTestClass"/>
+        <method signature="LoginPageTestClass.verifyResetPasswordPageComingWhileChickingOnForgotYourPassword()[pri:2, instance:testClasses.LoginPageTestClass@e25951c]" name="verifyResetPasswordPageComingWhileChickingOnForgotYourPassword" class="testClasses.LoginPageTestClass"/>
       </group> <!-- Group2 -->
     </groups>
-    <test started-at="2024-12-31T11:44:23 IST" name="ChromeTest" finished-at="2024-12-31T11:47:04 IST" duration-ms="161189">
+    <test started-at="2025-01-02T14:06:26 IST" name="Test" finished-at="2025-01-02T14:08:40 IST" duration-ms="133884">
       <class name="testClasses.ManageUserTestClass">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageUserTestClass@77659b30]" started-at="2024-12-31T11:44:23 IST" name="beforeMethod" finished-at="2024-12-31T11:44:33 IST" duration-ms="9738" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageUserTestClass@3cfdd820]" started-at="2025-01-02T14:06:53 IST" name="beforeMethod" finished-at="2025-01-02T14:06:57 IST" duration-ms="3027" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,15 +35,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheManageUsersPageIsOpenWhileClickingOnUsers()[pri:0, instance:testClasses.ManageUserTestClass@77659b30]" started-at="2024-12-31T11:44:33 IST" name="verifyTheManageUsersPageIsOpenWhileClickingOnUsers" finished-at="2024-12-31T11:44:41 IST" duration-ms="7521" status="PASS">
+        <test-method signature="verifyTheManageUsersPageIsOpenWhileClickingOnUsers()[pri:0, instance:testClasses.ManageUserTestClass@3cfdd820]" started-at="2025-01-02T14:06:57 IST" name="verifyTheManageUsersPageIsOpenWhileClickingOnUsers" finished-at="2025-01-02T14:07:02 IST" duration-ms="5183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheManageUsersPageIsOpenWhileClickingOnUsers -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageUserTestClass@77659b30]" started-at="2024-12-31T11:44:41 IST" name="afterMethod" finished-at="2024-12-31T11:44:41 IST" duration-ms="346" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageUserTestClass@3cfdd820]" started-at="2025-01-02T14:07:02 IST" name="afterMethod" finished-at="2025-01-02T14:07:02 IST" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageUserTestClass@77659b30]" started-at="2024-12-31T11:44:41 IST" name="beforeMethod" finished-at="2024-12-31T11:44:44 IST" duration-ms="3277" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageUserTestClass@3cfdd820]" started-at="2025-01-02T14:07:02 IST" name="beforeMethod" finished-at="2025-01-02T14:07:05 IST" duration-ms="3337" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,924 +54,148 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyToAdd_aNewUser()[pri:1, instance:testClasses.ManageUserTestClass@77659b30]" started-at="2024-12-31T11:44:44 IST" name="verifyToAdd_aNewUser" finished-at="2024-12-31T11:44:57 IST" duration-ms="12466" status="PASS">
+        <test-method signature="verifyToAdd_aNewUser()[pri:1, instance:testClasses.ManageUserTestClass@3cfdd820]" started-at="2025-01-02T14:07:05 IST" name="verifyToAdd_aNewUser" finished-at="2025-01-02T14:07:17 IST" duration-ms="11800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyToAdd_aNewUser -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageUserTestClass@77659b30]" started-at="2024-12-31T11:44:57 IST" name="afterMethod" finished-at="2024-12-31T11:44:57 IST" duration-ms="321" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageUserTestClass@3cfdd820]" started-at="2025-01-02T14:07:17 IST" name="afterMethod" finished-at="2025-01-02T14:07:18 IST" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testClasses.ManageUserTestClass -->
       <class name="testClasses.HomePageTestClass">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@3cfdd820]" started-at="2024-12-31T11:45:59 IST" name="beforeMethod" finished-at="2024-12-31T11:46:02 IST" duration-ms="2719" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyAllTilesDisplayedOnHomePage()[pri:0, instance:testClasses.HomePageTestClass@3cfdd820]" started-at="2024-12-31T11:46:02 IST" name="verifyAllTilesDisplayedOnHomePage" finished-at="2024-12-31T11:46:05 IST" duration-ms="3163" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAllTilesDisplayedOnHomePage -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@3cfdd820]" started-at="2024-12-31T11:46:05 IST" name="afterMethod" finished-at="2024-12-31T11:46:05 IST" duration-ms="341" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@3cfdd820]" started-at="2024-12-31T11:46:05 IST" name="beforeMethod" finished-at="2024-12-31T11:46:08 IST" duration-ms="2743" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="verifySuccessfulSignOut()[pri:1, instance:testClasses.HomePageTestClass@3cfdd820]" started-at="2024-12-31T11:46:08 IST" name="verifySuccessfulSignOut" finished-at="2024-12-31T11:46:12 IST" duration-ms="3955" status="SKIP">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <span>...</span> is not clickable at point (1495, 24). Other element would receive the click: <div class="tour-backdrop bottom" style="top: -2.44e-05px; left: 0px; height: 1561px; width: 1530px;"></div>
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [369fa08c7d442d27e1d3114f86821780, clickElement {id=f.3AF5C42303CBE569663D2923D589CC08.d.3FCE9C3DBA8E5DDCD0A68CC61A8E9CD8.e.68}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52081}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52081/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (369fa08c7d442d27e1d3114f86821780)] -> xpath: //span[contains(text(),'Admin')]]
-Session ID: 369fa08c7d442d27e1d3114f86821780]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (1495, 24). Other element would receive the click: <div class="tour-backdrop bottom" style="top: -2.44e-05px; left: 0px; height: 1561px; width: 1530px;"></div>
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [369fa08c7d442d27e1d3114f86821780, clickElement {id=f.3AF5C42303CBE569663D2923D589CC08.d.3FCE9C3DBA8E5DDCD0A68CC61A8E9CD8.e.68}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52081}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52081/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (369fa08c7d442d27e1d3114f86821780)] -> xpath: //span[contains(text(),'Admin')]]
-Session ID: 369fa08c7d442d27e1d3114f86821780
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-at utility.GeneralUtilities.clickElement(GeneralUtilities.java:12)
-at pageClasses.HomePageClass.signOutFromHomePage(HomePageClass.java:112)
-at testClasses.HomePageTestClass.verifySuccessfulSignOut(HomePageTestClass.java:51)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySuccessfulSignOut -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@3cfdd820]" started-at="2024-12-31T11:46:12 IST" name="afterMethod" finished-at="2024-12-31T11:46:12 IST" duration-ms="321" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@3cfdd820]" started-at="2024-12-31T11:46:12 IST" name="beforeMethod" finished-at="2024-12-31T11:46:15 IST" duration-ms="2881" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="verifySuccessfulSignOut()[pri:1, instance:testClasses.HomePageTestClass@3cfdd820]" started-at="2024-12-31T11:46:15 IST" name="verifySuccessfulSignOut" finished-at="2024-12-31T11:46:19 IST" duration-ms="3927" status="SKIP">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <span>...</span> is not clickable at point (1495, 24). Other element would receive the click: <div class="tour-backdrop bottom" style="top: -2.44e-05px; left: 0px; height: 1561px; width: 1530px;"></div>
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9cd2f3a1a1e90c7ae064af6cc9f450a0, clickElement {id=f.995B05A49812512C8F5891521EAC40EB.d.F7B4C761B42773323FF33A67E4F5E045.e.66}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52107}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52107/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (9cd2f3a1a1e90c7ae064af6cc9f450a0)] -> xpath: //span[contains(text(),'Admin')]]
-Session ID: 9cd2f3a1a1e90c7ae064af6cc9f450a0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (1495, 24). Other element would receive the click: <div class="tour-backdrop bottom" style="top: -2.44e-05px; left: 0px; height: 1561px; width: 1530px;"></div>
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9cd2f3a1a1e90c7ae064af6cc9f450a0, clickElement {id=f.995B05A49812512C8F5891521EAC40EB.d.F7B4C761B42773323FF33A67E4F5E045.e.66}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52107}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52107/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (9cd2f3a1a1e90c7ae064af6cc9f450a0)] -> xpath: //span[contains(text(),'Admin')]]
-Session ID: 9cd2f3a1a1e90c7ae064af6cc9f450a0
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-at utility.GeneralUtilities.clickElement(GeneralUtilities.java:12)
-at pageClasses.HomePageClass.signOutFromHomePage(HomePageClass.java:112)
-at testClasses.HomePageTestClass.verifySuccessfulSignOut(HomePageTestClass.java:51)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySuccessfulSignOut -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@3cfdd820]" started-at="2024-12-31T11:46:19 IST" name="afterMethod" finished-at="2024-12-31T11:46:19 IST" duration-ms="320" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@3cfdd820]" started-at="2024-12-31T11:46:19 IST" name="beforeMethod" finished-at="2024-12-31T11:46:22 IST" duration-ms="2821" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifySuccessfulSignOut()[pri:1, instance:testClasses.HomePageTestClass@3cfdd820]" started-at="2024-12-31T11:46:22 IST" name="verifySuccessfulSignOut" finished-at="2024-12-31T11:46:26 IST" duration-ms="4204" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySuccessfulSignOut -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@3cfdd820]" started-at="2024-12-31T11:46:26 IST" name="afterMethod" finished-at="2024-12-31T11:46:27 IST" duration-ms="324" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@3cfdd820]" started-at="2024-12-31T11:46:27 IST" name="beforeMethod" finished-at="2024-12-31T11:46:30 IST" duration-ms="2952" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator()[pri:2, instance:testClasses.HomePageTestClass@3cfdd820]" started-at="2024-12-31T11:46:30 IST" name="verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator" finished-at="2024-12-31T11:46:33 IST" duration-ms="3503" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@3cfdd820]" started-at="2024-12-31T11:46:33 IST" name="afterMethod" finished-at="2024-12-31T11:46:34 IST" duration-ms="394" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- testClasses.HomePageTestClass -->
-      <class name="testClasses.LoginPageTestClass">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:34 IST" name="beforeMethod" finished-at="2024-12-31T11:46:36 IST" duration-ms="2622" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheExactURL_OpensWhileHittingTheBaseURL()[pri:0, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:36 IST" name="verifyTheExactURL_OpensWhileHittingTheBaseURL" finished-at="2024-12-31T11:46:36 IST" duration-ms="27" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheExactURL_OpensWhileHittingTheBaseURL -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:36 IST" name="afterMethod" finished-at="2024-12-31T11:46:37 IST" duration-ms="330" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:37 IST" name="beforeMethod" finished-at="2024-12-31T11:46:40 IST" duration-ms="3001" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheRememberMeCheckboxIsSelectedByDefault()[pri:1, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:40 IST" name="verifyTheRememberMeCheckboxIsSelectedByDefault" finished-at="2024-12-31T11:46:40 IST" duration-ms="114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheRememberMeCheckboxIsSelectedByDefault -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:40 IST" name="afterMethod" finished-at="2024-12-31T11:46:40 IST" duration-ms="245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:40 IST" name="beforeMethod" finished-at="2024-12-31T11:46:43 IST" duration-ms="2935" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyResetPasswordPageComingWhileChickingOnForgotYourPassword()[pri:2, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:43 IST" name="verifyResetPasswordPageComingWhileChickingOnForgotYourPassword" finished-at="2024-12-31T11:46:44 IST" duration-ms="847" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyResetPasswordPageComingWhileChickingOnForgotYourPassword -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:44 IST" name="afterMethod" finished-at="2024-12-31T11:46:44 IST" duration-ms="304" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:44 IST" name="beforeMethod" finished-at="2024-12-31T11:46:47 IST" duration-ms="2760" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:47 IST" name="verifyUnsuccessfulLoginOfTheSite" data-provider="UnsuccessfulLogin" finished-at="2024-12-31T11:46:48 IST" duration-ms="1220" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[adm]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUnsuccessfulLoginOfTheSite -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:48 IST" name="afterMethod" finished-at="2024-12-31T11:46:49 IST" duration-ms="368" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:49 IST" name="beforeMethod" finished-at="2024-12-31T11:46:51 IST" duration-ms="2823" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:51 IST" name="verifyUnsuccessfulLoginOfTheSite" data-provider="UnsuccessfulLogin" finished-at="2024-12-31T11:46:53 IST" duration-ms="1424" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ad]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUnsuccessfulLoginOfTheSite -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:53 IST" name="afterMethod" finished-at="2024-12-31T11:46:53 IST" duration-ms="361" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:53 IST" name="beforeMethod" finished-at="2024-12-31T11:46:57 IST" duration-ms="3484" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:57 IST" name="verifyUnsuccessfulLoginOfTheSite" data-provider="UnsuccessfulLogin" finished-at="2024-12-31T11:46:58 IST" duration-ms="1077" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ad]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[124]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUnsuccessfulLoginOfTheSite -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:58 IST" name="afterMethod" finished-at="2024-12-31T11:46:58 IST" duration-ms="329" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:46:58 IST" name="beforeMethod" finished-at="2024-12-31T11:47:01 IST" duration-ms="2655" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifySuccessfullLogin()[pri:4, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:47:01 IST" name="verifySuccessfullLogin" finished-at="2024-12-31T11:47:04 IST" duration-ms="3315" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySuccessfullLogin -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@928763c]" started-at="2024-12-31T11:47:04 IST" name="afterMethod" finished-at="2024-12-31T11:47:04 IST" duration-ms="327" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- testClasses.LoginPageTestClass -->
-      <class name="testClasses.ManageProductTestClass">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:44:57 IST" name="beforeMethod" finished-at="2024-12-31T11:45:00 IST" duration-ms="2970" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="verifyProductsPageIsOpenWhileClickingOnListProducts()[pri:0, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:00 IST" name="verifyProductsPageIsOpenWhileClickingOnListProducts" finished-at="2024-12-31T11:45:04 IST" duration-ms="3970" status="SKIP">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a href="#" id="tour_step5_menu">...</a> is not clickable at point (115, 204). Other element would receive the click: <div class="tour-backdrop bottom" style="top: -2.44e-05px; left: 0px; height: 1561px; width: 1530px;"></div>
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [907ef5cc91c7fb0ab4f9f8f9748bcbd3, clickElement {id=f.86D910A9D33A9078AF0A0FCFDF3FBCE9.d.6CD7266B33E40D0E9FA56D2AAE8CC0EC.e.67}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51883}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51883/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (907ef5cc91c7fb0ab4f9f8f9748bcbd3)] -> id: tour_step5_menu]
-Session ID: 907ef5cc91c7fb0ab4f9f8f9748bcbd3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" id="tour_step5_menu">...</a> is not clickable at point (115, 204). Other element would receive the click: <div class="tour-backdrop bottom" style="top: -2.44e-05px; left: 0px; height: 1561px; width: 1530px;"></div>
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [907ef5cc91c7fb0ab4f9f8f9748bcbd3, clickElement {id=f.86D910A9D33A9078AF0A0FCFDF3FBCE9.d.6CD7266B33E40D0E9FA56D2AAE8CC0EC.e.67}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51883}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51883/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (907ef5cc91c7fb0ab4f9f8f9748bcbd3)] -> id: tour_step5_menu]
-Session ID: 907ef5cc91c7fb0ab4f9f8f9748bcbd3
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-at utility.GeneralUtilities.clickElement(GeneralUtilities.java:12)
-at pageClasses.HomePageClass.clickOnListProductsBtnUnderProducts(HomePageClass.java:106)
-at testClasses.ManageProductTestClass.verifyProductsPageIsOpenWhileClickingOnListProducts(ManageProductTestClass.java:29)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductsPageIsOpenWhileClickingOnListProducts -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:04 IST" name="afterMethod" finished-at="2024-12-31T11:45:04 IST" duration-ms="338" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:04 IST" name="beforeMethod" finished-at="2024-12-31T11:45:07 IST" duration-ms="2891" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyProductsPageIsOpenWhileClickingOnListProducts()[pri:0, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:07 IST" name="verifyProductsPageIsOpenWhileClickingOnListProducts" finished-at="2024-12-31T11:45:12 IST" duration-ms="5122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductsPageIsOpenWhileClickingOnListProducts -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:12 IST" name="afterMethod" finished-at="2024-12-31T11:45:13 IST" duration-ms="286" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:13 IST" name="beforeMethod" finished-at="2024-12-31T11:45:16 IST" duration-ms="3165" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyToCreateA_newProduct()[pri:1, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:16 IST" name="verifyToCreateA_newProduct" finished-at="2024-12-31T11:45:28 IST" duration-ms="11811" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyToCreateA_newProduct -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:28 IST" name="afterMethod" finished-at="2024-12-31T11:45:28 IST" duration-ms="326" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:28 IST" name="beforeMethod" finished-at="2024-12-31T11:45:31 IST" duration-ms="2769" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="verifyToDeleteAddedProduct()[pri:2, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:31 IST" name="verifyToDeleteAddedProduct" finished-at="2024-12-31T11:45:35 IST" duration-ms="4083" status="SKIP">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a href="#" id="tour_step5_menu">...</a> is not clickable at point (115, 204). Other element would receive the click: <div class="tour-backdrop bottom" style="top: -2.44e-05px; left: 0px; height: 1561px; width: 1530px;"></div>
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [df9f9ee29ba61ded9acd5c5d9dc197e3, clickElement {id=f.08A894C05B9928D7C5D1C7B93BCBFD62.d.111ACEBB4FFB5710E2EFFAE447277ADB.e.67}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51974/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (df9f9ee29ba61ded9acd5c5d9dc197e3)] -> id: tour_step5_menu]
-Session ID: df9f9ee29ba61ded9acd5c5d9dc197e3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" id="tour_step5_menu">...</a> is not clickable at point (115, 204). Other element would receive the click: <div class="tour-backdrop bottom" style="top: -2.44e-05px; left: 0px; height: 1561px; width: 1530px;"></div>
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [df9f9ee29ba61ded9acd5c5d9dc197e3, clickElement {id=f.08A894C05B9928D7C5D1C7B93BCBFD62.d.111ACEBB4FFB5710E2EFFAE447277ADB.e.67}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51974/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (df9f9ee29ba61ded9acd5c5d9dc197e3)] -> id: tour_step5_menu]
-Session ID: df9f9ee29ba61ded9acd5c5d9dc197e3
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-at utility.GeneralUtilities.clickElement(GeneralUtilities.java:12)
-at pageClasses.HomePageClass.clickOnListProductsBtnUnderProducts(HomePageClass.java:106)
-at testClasses.ManageProductTestClass.verifyToDeleteAddedProduct(ManageProductTestClass.java:70)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyToDeleteAddedProduct -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:35 IST" name="afterMethod" finished-at="2024-12-31T11:45:35 IST" duration-ms="307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:35 IST" name="beforeMethod" finished-at="2024-12-31T11:45:38 IST" duration-ms="2747" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="verifyToDeleteAddedProduct()[pri:2, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:38 IST" name="verifyToDeleteAddedProduct" finished-at="2024-12-31T11:45:42 IST" duration-ms="4021" status="SKIP">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a href="#" id="tour_step5_menu">...</a> is not clickable at point (115, 204). Other element would receive the click: <div class="tour-backdrop bottom" style="top: -2.44e-05px; left: 0px; height: 1561px; width: 1530px;"></div>
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b3d4b3eee561a1c71e50d2244f80bbbf, clickElement {id=f.1C886D7E1EE43AFE4A71FA25225D2A52.d.054EFDA77B5ED954E0961114B1839D07.e.27}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51997/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (b3d4b3eee561a1c71e50d2244f80bbbf)] -> id: tour_step5_menu]
-Session ID: b3d4b3eee561a1c71e50d2244f80bbbf]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" id="tour_step5_menu">...</a> is not clickable at point (115, 204). Other element would receive the click: <div class="tour-backdrop bottom" style="top: -2.44e-05px; left: 0px; height: 1561px; width: 1530px;"></div>
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b3d4b3eee561a1c71e50d2244f80bbbf, clickElement {id=f.1C886D7E1EE43AFE4A71FA25225D2A52.d.054EFDA77B5ED954E0961114B1839D07.e.27}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51997/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (b3d4b3eee561a1c71e50d2244f80bbbf)] -> id: tour_step5_menu]
-Session ID: b3d4b3eee561a1c71e50d2244f80bbbf
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-at utility.GeneralUtilities.clickElement(GeneralUtilities.java:12)
-at pageClasses.HomePageClass.clickOnListProductsBtnUnderProducts(HomePageClass.java:106)
-at testClasses.ManageProductTestClass.verifyToDeleteAddedProduct(ManageProductTestClass.java:70)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyToDeleteAddedProduct -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:42 IST" name="afterMethod" finished-at="2024-12-31T11:45:42 IST" duration-ms="317" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:42 IST" name="beforeMethod" finished-at="2024-12-31T11:45:45 IST" duration-ms="2979" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyToDeleteAddedProduct()[pri:2, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:45 IST" name="verifyToDeleteAddedProduct" finished-at="2024-12-31T11:45:58 IST" duration-ms="13206" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyToDeleteAddedProduct -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@6f8e8894]" started-at="2024-12-31T11:45:58 IST" name="afterMethod" finished-at="2024-12-31T11:45:59 IST" duration-ms="544" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- testClasses.ManageProductTestClass -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2024-12-31T11:47:05 IST" name="EdgeTest" finished-at="2024-12-31T11:49:11 IST" duration-ms="125611">
-      <class name="testClasses.ManageUserTestClass">
-        <test-method is-config="true" signature="createReport()[pri:0, instance:testClasses.ManageUserTestClass@3116c353]" started-at="2024-12-31T11:44:23 IST" name="createReport" finished-at="2024-12-31T11:44:23 IST" duration-ms="24" status="PASS">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:testClasses.HomePageTestClass@456d6c1e]" started-at="2025-01-02T14:06:26 IST" name="createReport" finished-at="2025-01-02T14:06:26 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReport -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageUserTestClass@3116c353]" started-at="2024-12-31T11:47:05 IST" name="beforeMethod" finished-at="2024-12-31T11:47:10 IST" duration-ms="4892" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@456d6c1e]" started-at="2025-01-02T14:06:26 IST" name="beforeMethod" finished-at="2025-01-02T14:06:32 IST" duration-ms="5313" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheManageUsersPageIsOpenWhileClickingOnUsers()[pri:0, instance:testClasses.ManageUserTestClass@3116c353]" started-at="2024-12-31T11:47:10 IST" name="verifyTheManageUsersPageIsOpenWhileClickingOnUsers" finished-at="2024-12-31T11:47:15 IST" duration-ms="5525" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheManageUsersPageIsOpenWhileClickingOnUsers -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageUserTestClass@3116c353]" started-at="2024-12-31T11:47:15 IST" name="afterMethod" finished-at="2024-12-31T11:47:16 IST" duration-ms="434" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageUserTestClass@3116c353]" started-at="2024-12-31T11:47:16 IST" name="beforeMethod" finished-at="2024-12-31T11:47:19 IST" duration-ms="3485" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyToAdd_aNewUser()[pri:1, instance:testClasses.ManageUserTestClass@3116c353]" started-at="2024-12-31T11:47:19 IST" name="verifyToAdd_aNewUser" finished-at="2024-12-31T11:47:32 IST" duration-ms="12424" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyToAdd_aNewUser -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageUserTestClass@3116c353]" started-at="2024-12-31T11:47:32 IST" name="afterMethod" finished-at="2024-12-31T11:47:32 IST" duration-ms="657" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- testClasses.ManageUserTestClass -->
-      <class name="testClasses.HomePageTestClass">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@4e928fbf]" started-at="2024-12-31T11:48:15 IST" name="beforeMethod" finished-at="2024-12-31T11:48:19 IST" duration-ms="3350" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyAllTilesDisplayedOnHomePage()[pri:0, instance:testClasses.HomePageTestClass@4e928fbf]" started-at="2024-12-31T11:48:19 IST" name="verifyAllTilesDisplayedOnHomePage" finished-at="2024-12-31T11:48:22 IST" duration-ms="3359" status="PASS">
+        <test-method signature="verifyAllTilesDisplayedOnHomePage()[pri:0, instance:testClasses.HomePageTestClass@456d6c1e]" started-at="2025-01-02T14:06:32 IST" name="verifyAllTilesDisplayedOnHomePage" finished-at="2025-01-02T14:06:36 IST" duration-ms="4147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllTilesDisplayedOnHomePage -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@4e928fbf]" started-at="2024-12-31T11:48:22 IST" name="afterMethod" finished-at="2024-12-31T11:48:22 IST" duration-ms="353" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@456d6c1e]" started-at="2025-01-02T14:06:36 IST" name="afterMethod" finished-at="2025-01-02T14:06:36 IST" duration-ms="436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@4e928fbf]" started-at="2024-12-31T11:48:22 IST" name="beforeMethod" finished-at="2024-12-31T11:48:26 IST" duration-ms="3218" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@456d6c1e]" started-at="2025-01-02T14:06:36 IST" name="beforeMethod" finished-at="2025-01-02T14:06:40 IST" duration-ms="3959" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifySuccessfulSignOut()[pri:1, instance:testClasses.HomePageTestClass@4e928fbf]" started-at="2024-12-31T11:48:26 IST" name="verifySuccessfulSignOut" finished-at="2024-12-31T11:48:30 IST" duration-ms="4238" status="PASS">
+        <test-method signature="verifySuccessfulSignOut()[pri:1, instance:testClasses.HomePageTestClass@456d6c1e]" started-at="2025-01-02T14:06:40 IST" name="verifySuccessfulSignOut" finished-at="2025-01-02T14:06:46 IST" duration-ms="5343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulSignOut -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@4e928fbf]" started-at="2024-12-31T11:48:30 IST" name="afterMethod" finished-at="2024-12-31T11:48:30 IST" duration-ms="368" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@456d6c1e]" started-at="2025-01-02T14:06:46 IST" name="afterMethod" finished-at="2025-01-02T14:06:46 IST" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@4e928fbf]" started-at="2024-12-31T11:48:30 IST" name="beforeMethod" finished-at="2024-12-31T11:48:33 IST" duration-ms="3192" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@456d6c1e]" started-at="2025-01-02T14:06:46 IST" name="beforeMethod" finished-at="2025-01-02T14:06:50 IST" duration-ms="3593" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator()[pri:2, instance:testClasses.HomePageTestClass@4e928fbf]" started-at="2024-12-31T11:48:33 IST" name="verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator" finished-at="2024-12-31T11:48:37 IST" duration-ms="3413" status="PASS">
+        <test-method signature="verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator()[pri:2, instance:testClasses.HomePageTestClass@456d6c1e]" started-at="2025-01-02T14:06:50 IST" name="verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator" finished-at="2025-01-02T14:06:53 IST" duration-ms="3489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@4e928fbf]" started-at="2024-12-31T11:48:37 IST" name="afterMethod" finished-at="2024-12-31T11:48:37 IST" duration-ms="503" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@456d6c1e]" started-at="2025-01-02T14:06:53 IST" name="afterMethod" finished-at="2025-01-02T14:06:53 IST" duration-ms="365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testClasses.HomePageTestClass -->
       <class name="testClasses.LoginPageTestClass">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:48:37 IST" name="beforeMethod" finished-at="2024-12-31T11:48:40 IST" duration-ms="3055" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:01 IST" name="beforeMethod" finished-at="2025-01-02T14:08:05 IST" duration-ms="4384" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheExactURL_OpensWhileHittingTheBaseURL()[pri:0, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:48:40 IST" name="verifyTheExactURL_OpensWhileHittingTheBaseURL" finished-at="2024-12-31T11:48:40 IST" duration-ms="29" status="PASS">
+        <test-method signature="verifyTheExactURL_OpensWhileHittingTheBaseURL()[pri:0, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:05 IST" name="verifyTheExactURL_OpensWhileHittingTheBaseURL" finished-at="2025-01-02T14:08:05 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheExactURL_OpensWhileHittingTheBaseURL -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:48:40 IST" name="afterMethod" finished-at="2024-12-31T11:48:41 IST" duration-ms="278" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:05 IST" name="afterMethod" finished-at="2025-01-02T14:08:06 IST" duration-ms="357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:48:41 IST" name="beforeMethod" finished-at="2024-12-31T11:48:44 IST" duration-ms="2890" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:06 IST" name="beforeMethod" finished-at="2025-01-02T14:08:09 IST" duration-ms="3476" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheRememberMeCheckboxIsSelectedByDefault()[pri:1, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:48:44 IST" name="verifyTheRememberMeCheckboxIsSelectedByDefault" finished-at="2024-12-31T11:48:44 IST" duration-ms="88" status="PASS">
+        <test-method signature="verifyTheRememberMeCheckboxIsSelectedByDefault()[pri:1, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:09 IST" name="verifyTheRememberMeCheckboxIsSelectedByDefault" finished-at="2025-01-02T14:08:09 IST" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheRememberMeCheckboxIsSelectedByDefault -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:48:44 IST" name="afterMethod" finished-at="2024-12-31T11:48:44 IST" duration-ms="278" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:09 IST" name="afterMethod" finished-at="2025-01-02T14:08:10 IST" duration-ms="466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:48:44 IST" name="beforeMethod" finished-at="2024-12-31T11:48:48 IST" duration-ms="3827" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:10 IST" name="beforeMethod" finished-at="2025-01-02T14:08:13 IST" duration-ms="3285" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyResetPasswordPageComingWhileChickingOnForgotYourPassword()[pri:2, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:48:48 IST" name="verifyResetPasswordPageComingWhileChickingOnForgotYourPassword" finished-at="2024-12-31T11:48:49 IST" duration-ms="809" status="PASS">
+        <test-method signature="verifyResetPasswordPageComingWhileChickingOnForgotYourPassword()[pri:2, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:13 IST" name="verifyResetPasswordPageComingWhileChickingOnForgotYourPassword" finished-at="2025-01-02T14:08:15 IST" duration-ms="1508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResetPasswordPageComingWhileChickingOnForgotYourPassword -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:48:49 IST" name="afterMethod" finished-at="2024-12-31T11:48:49 IST" duration-ms="342" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:15 IST" name="afterMethod" finished-at="2025-01-02T14:08:15 IST" duration-ms="826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:48:49 IST" name="beforeMethod" finished-at="2024-12-31T11:48:52 IST" duration-ms="3028" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:16 IST" name="beforeMethod" finished-at="2025-01-02T14:08:21 IST" duration-ms="5248" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:48:52 IST" name="verifyUnsuccessfulLoginOfTheSite" data-provider="UnsuccessfulLogin" finished-at="2024-12-31T11:48:53 IST" duration-ms="1141" status="PASS">
+        <test-method signature="verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:21 IST" name="verifyUnsuccessfulLoginOfTheSite" data-provider="UnsuccessfulLogin" finished-at="2025-01-02T14:08:22 IST" duration-ms="1133" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1000,22 +211,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulLoginOfTheSite -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:48:53 IST" name="afterMethod" finished-at="2024-12-31T11:48:54 IST" duration-ms="313" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:22 IST" name="afterMethod" finished-at="2025-01-02T14:08:23 IST" duration-ms="878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:48:54 IST" name="beforeMethod" finished-at="2024-12-31T11:48:57 IST" duration-ms="3396" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:23 IST" name="beforeMethod" finished-at="2025-01-02T14:08:28 IST" duration-ms="4766" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:48:57 IST" name="verifyUnsuccessfulLoginOfTheSite" data-provider="UnsuccessfulLogin" finished-at="2024-12-31T11:48:58 IST" duration-ms="1172" status="PASS">
+        <test-method signature="verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:28 IST" name="verifyUnsuccessfulLoginOfTheSite" data-provider="UnsuccessfulLogin" finished-at="2025-01-02T14:08:29 IST" duration-ms="1424" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1031,22 +242,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulLoginOfTheSite -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:48:58 IST" name="afterMethod" finished-at="2024-12-31T11:48:59 IST" duration-ms="355" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:29 IST" name="afterMethod" finished-at="2025-01-02T14:08:29 IST" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:48:59 IST" name="beforeMethod" finished-at="2024-12-31T11:49:02 IST" duration-ms="3560" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:29 IST" name="beforeMethod" finished-at="2025-01-02T14:08:32 IST" duration-ms="2667" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:49:02 IST" name="verifyUnsuccessfulLoginOfTheSite" data-provider="UnsuccessfulLogin" finished-at="2024-12-31T11:49:03 IST" duration-ms="1222" status="PASS">
+        <test-method signature="verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:32 IST" name="verifyUnsuccessfulLoginOfTheSite" data-provider="UnsuccessfulLogin" finished-at="2025-01-02T14:08:33 IST" duration-ms="1152" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1062,89 +273,89 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulLoginOfTheSite -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:49:03 IST" name="afterMethod" finished-at="2024-12-31T11:49:04 IST" duration-ms="336" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:33 IST" name="afterMethod" finished-at="2025-01-02T14:08:34 IST" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:49:04 IST" name="beforeMethod" finished-at="2024-12-31T11:49:07 IST" duration-ms="3222" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:34 IST" name="beforeMethod" finished-at="2025-01-02T14:08:37 IST" duration-ms="2999" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifySuccessfullLogin()[pri:4, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:49:07 IST" name="verifySuccessfullLogin" finished-at="2024-12-31T11:49:10 IST" duration-ms="3340" status="PASS">
+        <test-method signature="verifySuccessfullLogin()[pri:4, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:37 IST" name="verifySuccessfullLogin" finished-at="2025-01-02T14:08:40 IST" duration-ms="3224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfullLogin -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@352ff4da]" started-at="2024-12-31T11:49:10 IST" name="afterMethod" finished-at="2024-12-31T11:49:11 IST" duration-ms="409" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@e25951c]" started-at="2025-01-02T14:08:40 IST" name="afterMethod" finished-at="2025-01-02T14:08:40 IST" duration-ms="442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testClasses.LoginPageTestClass -->
       <class name="testClasses.ManageProductTestClass">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@f627d13]" started-at="2024-12-31T11:47:32 IST" name="beforeMethod" finished-at="2024-12-31T11:47:36 IST" duration-ms="3376" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@928763c]" started-at="2025-01-02T14:07:18 IST" name="beforeMethod" finished-at="2025-01-02T14:07:21 IST" duration-ms="3130" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyProductsPageIsOpenWhileClickingOnListProducts()[pri:0, instance:testClasses.ManageProductTestClass@f627d13]" started-at="2024-12-31T11:47:36 IST" name="verifyProductsPageIsOpenWhileClickingOnListProducts" finished-at="2024-12-31T11:47:41 IST" duration-ms="5484" status="PASS">
+        <test-method signature="verifyProductsPageIsOpenWhileClickingOnListProducts()[pri:0, instance:testClasses.ManageProductTestClass@928763c]" started-at="2025-01-02T14:07:21 IST" name="verifyProductsPageIsOpenWhileClickingOnListProducts" finished-at="2025-01-02T14:07:27 IST" duration-ms="5960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductsPageIsOpenWhileClickingOnListProducts -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@f627d13]" started-at="2024-12-31T11:47:41 IST" name="afterMethod" finished-at="2024-12-31T11:47:42 IST" duration-ms="344" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@928763c]" started-at="2025-01-02T14:07:27 IST" name="afterMethod" finished-at="2025-01-02T14:07:27 IST" duration-ms="340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@f627d13]" started-at="2024-12-31T11:47:42 IST" name="beforeMethod" finished-at="2024-12-31T11:47:45 IST" duration-ms="3349" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@928763c]" started-at="2025-01-02T14:07:27 IST" name="beforeMethod" finished-at="2025-01-02T14:07:30 IST" duration-ms="3262" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyToCreateA_newProduct()[pri:1, instance:testClasses.ManageProductTestClass@f627d13]" started-at="2024-12-31T11:47:45 IST" name="verifyToCreateA_newProduct" finished-at="2024-12-31T11:47:57 IST" duration-ms="12381" status="PASS">
+        <test-method signature="verifyToCreateA_newProduct()[pri:1, instance:testClasses.ManageProductTestClass@928763c]" started-at="2025-01-02T14:07:30 IST" name="verifyToCreateA_newProduct" finished-at="2025-01-02T14:07:43 IST" duration-ms="12606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyToCreateA_newProduct -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@f627d13]" started-at="2024-12-31T11:47:57 IST" name="afterMethod" finished-at="2024-12-31T11:47:58 IST" duration-ms="377" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@928763c]" started-at="2025-01-02T14:07:43 IST" name="afterMethod" finished-at="2025-01-02T14:07:43 IST" duration-ms="355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@f627d13]" started-at="2024-12-31T11:47:58 IST" name="beforeMethod" finished-at="2024-12-31T11:48:01 IST" duration-ms="3087" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@928763c]" started-at="2025-01-02T14:07:43 IST" name="beforeMethod" finished-at="2025-01-02T14:07:46 IST" duration-ms="2787" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyToDeleteAddedProduct()[pri:2, instance:testClasses.ManageProductTestClass@f627d13]" started-at="2024-12-31T11:48:01 IST" name="verifyToDeleteAddedProduct" finished-at="2024-12-31T11:48:15 IST" duration-ms="13756" status="PASS">
+        <test-method signature="verifyToDeleteAddedProduct()[pri:2, instance:testClasses.ManageProductTestClass@928763c]" started-at="2025-01-02T14:07:46 IST" name="verifyToDeleteAddedProduct" finished-at="2025-01-02T14:08:00 IST" duration-ms="14250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyToDeleteAddedProduct -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@f627d13]" started-at="2024-12-31T11:48:15 IST" name="afterMethod" finished-at="2024-12-31T11:48:15 IST" duration-ms="735" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@928763c]" started-at="2025-01-02T14:08:00 IST" name="afterMethod" finished-at="2025-01-02T14:08:01 IST" duration-ms="616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testClasses.ManageProductTestClass -->
-    </test> <!-- EdgeTest -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
